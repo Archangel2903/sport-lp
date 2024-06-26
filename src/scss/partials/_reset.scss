@@ -121,6 +121,9 @@ input {
   &[type="text"], &[type="email"], &[type="password"], &[type="number"], &[type="tel"], &[type="search"], &[type="datetime"], &[type="url"] {
     cursor: auto;
     padding: 0 5px;
+    color: #8681ae;
+    font-family: $font-family-custom;
+    font-size: 14px;
     -webkit-appearance: textfield;
     -moz-appearance: textfield;
 
@@ -164,12 +167,14 @@ input {
   }
 
   &::-moz-placeholder {
+    font-family: $font-family-custom;
     font-weight: $font-weight-light;
     font-size: 1rem;
     color: $input-placeholder-color;
     transition: $transition-base;
   }
   &::-ms-placeholder {
+    font-family: $font-family-custom;
     font-weight: $font-weight-light;
     font-size: 1rem;
     color: $input-placeholder-color;
@@ -307,17 +312,23 @@ iframe {
 ::selection {
   text-shadow: none;
   color: $selection-text-color;
+  -webkit-text-fill-color: $selection-text-color;
+  text-fill-color: $selection-text-color;
   background: $selection-bg-color;
 }
 
 ::-moz-selection {
   text-shadow: none;
   color: $selection-text-color;
+  -webkit-text-fill-color: $selection-text-color;
+  text-fill-color: $selection-text-color;
   background: $selection-bg-color;
 }
 
 ::-ms-selection {
   text-shadow: none;
   color: $selection-text-color;
+  -webkit-text-fill-color: $selection-text-color;
+  text-fill-color: $selection-text-color;
   background: $selection-bg-color;
 }

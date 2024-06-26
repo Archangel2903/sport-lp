@@ -94,7 +94,7 @@
   }
 
   &-primary {
-    background: linear-gradient(to right, #fffda0 0%,#ffde54 20%,#fddc6a 40%,#ffa020 60%,#f0c618 80%,#ffde54 100%);
+    background: linear-gradient(to bottom, #f5b832 0%, #fad890 35%, #fdf6ad 50%, #fcf072 65%, #a35823 100%);
     color: #090341;
 
     &:focus,
@@ -180,6 +180,14 @@
       margin-left: 16px;
     }
   }
+}
+
+.gradient-text {
+  background: linear-gradient(to bottom, #f5b832 0%, #fad890 35%, #fdf6ad 50%, #fcf072 65%, #a35823 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 form {

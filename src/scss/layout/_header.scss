@@ -4,8 +4,15 @@
 header.header {
   order: 1;
   -webkit-order: 1;
-  position: relative;
+  position: absolute;
   min-width: 320px;
   width: 100%;
+  padding-top: 20px;
   z-index: 100;
+}
+
+.logo {
+  img {
+    width: 90px;
+  }
 }
